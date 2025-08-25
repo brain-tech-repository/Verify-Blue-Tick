@@ -55,7 +55,7 @@ export default function InstagramCard() {
           />
           <div>
             <p className="font-semibold text-gray-800">Instagram</p>
-            <p className="text-xs text-gray-500">Official Update</p>
+            <p className="text-xs text-gray-500">Official Updates</p>
           </div>
         </div>
         <button onClick={goBack} className="text-gray-600 hover:text-black">
