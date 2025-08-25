@@ -64,7 +64,7 @@ const App = () => {
                 console.log("Saved user:", data);
                  router.push("pages/tick");
             } else {
-                alert(data.error || "Failed to save");
+                alert(data.error || "Failed to save data");
             }
         } catch (error) {
             console.error("Error:", error);
